@@ -1,0 +1,50 @@
+{
+  "name": "bamminions",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "18.20.8"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "build-only": "vite build",
+    "type-check": "vue-tsc --build",
+    "lint": "eslint . --fix",
+    "format": "prettier --write src/"
+  },
+  "dependencies": {
+    "@jamescoyle/vue-icon": "^0.1.2",
+    "@mdi/js": "^7.0.96",
+    "axios": "^1.3.4",
+    "nprogress": "^0.2.0",
+    "pinia": "^2.0.35",
+    "tailwindcss": "^3.2.7",
+    "vee-validate": "^4.8.3",
+    "vue": "^3.2.47",
+    "vue-media-upload": "^2.2.4",
+    "vue-router": "^4.1.6",
+    "yup": "^1.0.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.3",
+    "@tsconfig/node18": "^18.2.0",
+    "@types/node": "^18.15.11",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "@vue/eslint-config-prettier": "^7.1.0",
+    "@vue/eslint-config-typescript": "^11.0.3",
+    "@vue/tsconfig": "^0.4.0",
+    "eslint": "^8.38.0",
+    "eslint-plugin-vue": "~9.11.0",
+    "jiti": "^1.18.2",
+    "npm-run-all2": "^6.1.1",
+    "prettier": "2.8.7",
+    "typescript": "~5.0.4",
+    "vite": "^4.3.4",
+    "vue-tsc": "^1.6.4",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.23"
+  }
+}
